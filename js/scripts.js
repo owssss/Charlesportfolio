@@ -13,7 +13,7 @@
 (function($) {
 
     // Show current year
-    $("#current-year").text(new Date().getFullYear());
+    $("#year").text(new Date().getFullYear());
 
     // Remove no-js class
     $('html').removeClass('no-js');
