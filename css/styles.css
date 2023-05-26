@@ -34,30 +34,32 @@ header h1 {
   margin-bottom: 10px;
 }
 
-/* Project list styles */
-.project-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+/* Project section styles */
+.project-section {
+  display: flex;
+  justify-content: space-between;
 }
 
-.project-list li {
-  cursor: pointer;
-  background-color: #f2f2f5;
+.project {
+  flex-basis: 30%;
   padding: 15px;
-  margin-bottom: 10px;
+  background-color: #f2f2f5;
   border-radius: 4px;
+  text-align: center;
 }
 
-.project-list li:hover {
-  background-color: #e4e4ea;
+.project img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
-.project-list li h3 {
+.project h3 {
   margin: 0;
 }
 
-.project-list li p {
+.project p {
   margin: 0;
   color: #74808a;
 }
