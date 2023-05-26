@@ -34,32 +34,30 @@ header h1 {
   margin-bottom: 10px;
 }
 
-/* Project section styles */
-.project-section {
-  display: flex;
-  justify-content: space-between;
-}
-
-.project {
-  flex-basis: 30%;
-  padding: 15px;
-  background-color: #f2f2f5;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.project img {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.project h3 {
+/* Project list styles */
+.project-list {
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
 
-.project p {
+.project-list li {
+  cursor: pointer;
+  background-color: #f2f2f5;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.project-list li:hover {
+  background-color: #e4e4ea;
+}
+
+.project-list li h3 {
+  margin: 0;
+}
+
+.project-list li p {
   margin: 0;
   color: #74808a;
 }
@@ -75,3 +73,4 @@ footer {
 footer p {
   color: #74808a;
 }
+
