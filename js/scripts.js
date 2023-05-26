@@ -96,16 +96,5 @@
             $('#more-projects').fadeIn(300);
         });
     });
-    
-    //slick carousel
-    $(document).ready(function() {
-    $('.project-carousel').slick({
-        dots: true,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    });
-});
-
 
 })(jQuery);
