@@ -61,6 +61,35 @@ header h1 {
   margin: 0;
   color: #74808a;
 }
+/* Project section styles */
+.project-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project {
+  flex-basis: 30%;
+  padding: 15px;
+  background-color: #f2f2f5;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  margin: 0;
+}
+
+.project p {
+  margin: 0;
+  color: #74808a;
+}
 
 /* Footer styles */
 footer {
